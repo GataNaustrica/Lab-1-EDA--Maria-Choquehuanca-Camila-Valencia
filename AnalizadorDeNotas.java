@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//Maria choquehuanca, Camila Valencia 
 //pusimos una breve descripcion de cada parte del codigo para mejor legibilidad
 
 public class AnalizadorDeNotas {
@@ -178,3 +178,4 @@ public class AnalizadorDeNotas {
     }
 
 }
+
