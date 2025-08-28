@@ -21,7 +21,7 @@ public class AnalizadorDeNotas {
 
         // nombres simples
         for (int j = 0; j < cantEvaluaciones; j++) {
-            this.evaluaciones[j] = "Evaluacion " + (j + 1); // se asigna un nombre automático a cada evaluación
+            this.evaluaciones[j] = "Evaluacion " + (j + 1); // se asigna un nombre automatico a cada evaluacion
         }
 
         // datos aleatorios
@@ -144,12 +144,12 @@ public class AnalizadorDeNotas {
 
     // Retorna el RUT del estudiante con la nota maxima en esa evaluacion
     public String encontrarMaximo(int index) {
-        double max = notas[0][index]; // inicializa el máximo con la primera nota
-        int pos = 0; // posición del estudiante con la nota máxima
+        double max = notas[0][index]; // inicializa el maximo con la primera nota
+        int pos = 0; // posición del estudiante con la nota maxima
         for (int i = 1; i < cantEstudiantes; i++) {
             if (notas[i][index] > max) { // si se encuentra una nota mayor
-                max = notas[i][index]; // actualiza el máximo
-                pos = i; // guarda la posición
+                max = notas[i][index]; // actualiza el maximo
+                pos = i; // guarda la posicion
             }
         }
         return String.valueOf(rut[pos]); // retorna el RUT como String
@@ -165,7 +165,7 @@ public class AnalizadorDeNotas {
 
         promedioEvaluaciones = new double[cantEvaluaciones]; // arreglo para almacenar promedios de evaluaciones
         for (int j = 0; j < cantEvaluaciones; j++) {
-            promedioEvaluaciones[j] = calcularPromedioEvaluacion(j); // recorre llenando el arreglo con el promedio de cada evaluación
+            promedioEvaluaciones[j] = calcularPromedioEvaluacion(j); // recorre llenando el arreglo con el promedio de cada evaluacion
         }
     }
 
@@ -178,4 +178,5 @@ public class AnalizadorDeNotas {
     }
 
 }
+
 
