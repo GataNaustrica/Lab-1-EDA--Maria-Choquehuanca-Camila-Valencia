@@ -1,6 +1,5 @@
 import java.util.Random;
 //Maria choquehuanca, Camila Valencia 
-//pusimos una breve descripcion de cada parte del codigo para mejor legibilidad
 
 public class AnalizadorDeNotas {
     double[][] notas;  // matriz para guardar las notas de cada estudiante
@@ -178,6 +177,7 @@ public class AnalizadorDeNotas {
     }
 
 }
+
 
 
 
