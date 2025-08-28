@@ -6,9 +6,9 @@ public class AnalizadorDeNotas {
     double[][] notas;  // matriz para guardar las notas de cada estudiante
     String[] evaluaciones; // array para nombres de evaluaciones
     int[] rut; // array para RUT de alumno
-    int cantEstudiantes, cantEvaluaciones;
-    double[] promediosEstudiantes;
-    double[] promedioEvaluaciones;
+    int cantEstudiantes, cantEvaluaciones; // numero entero que guarda la cantidad de estudiante y el otro la cantidad de los alumnos
+    double[] promediosEstudiantes; //array de tamaño cantidad de estudiantes
+    double[] promedioEvaluaciones; //array de tamaño cantidad de evaluaciones
 
     // CONSTRUCTOR 1 
     public AnalizadorDeNotas(int estudiantes, int evaluaciones) {
@@ -178,5 +178,6 @@ public class AnalizadorDeNotas {
     }
 
 }
+
 
 
